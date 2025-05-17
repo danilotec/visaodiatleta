@@ -6,6 +6,7 @@
     <title>VisãodeAtleta - Óculos Exclusivos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/products.css">
 </head>
 <body>
     <!-- Header -->
@@ -39,7 +40,7 @@
                     <a href="#featured" class="btn">Ver Coleção</a>
                 </div>
                 <div class="hero-image">
-                    <img src="/static/images/photo_2025-05-16_19-50-30.jpg" alt="Coleção de Óculos">
+                    <img src="/static/images/colecao.jpg" alt="Coleção de Óculos">
                 </div>
             </div>
         </div>
@@ -53,59 +54,9 @@
                 <p>Confira os modelos mais vendidos e as últimas tendências em 
                     óculos de sol e de corrida</p>
             </div>
-            <div class="products">
-                <!-- Product 1 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/static/images/photo_2025-05-16_19-40-19.jpg" alt="Óculos de Sol Aviador">
-                    </div>
-                    <div class="product-info">
-                        <h3>Aviador Classic</h3>
-                        <p>Óculos de sol estilo aviador com armação metálica e 
-                            lentes polarizadas.</p>
-                        <div class="product-price">R$ 279,90</div>
-                        <a href="#contact" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
-                
-                <!-- Product 2 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/static/images/photo_2025-05-16_19-40-14.jpg" alt="Óculos de Corrida">
-                    </div>
-                    <div class="product-info">
-                        <h3>Urban Round</h3>
-                        <p>Óculos de sol com armação redonda e acabamento acetato premium.</p>
-                        <div class="product-price">R$ 349,90</div>
-                        <a href="#contact" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
-                
-                <!-- Product 3 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/static/images/photo_2025-05-16_19-40-17.jpg" alt="Óculos de Sol Wayfarer">
-                    </div>
-                    <div class="product-info">
-                        <h3>Coastal Wayfarer</h3>
-                        <p>Óculos de sol estilo wayfarer com armação robusta e proteção UV400.</p>
-                        <div class="product-price">R$ 299,90</div>
-                        <a href="#contact" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
-                
-                <!-- Product 4 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/static/images/photo_2025-05-16_19-40-22.jpg" alt="Óculos de Corrida">
-                    </div>
-                    <div class="product-info">
-                        <h3>Executive Frame</h3>
-                        <p>Óculos de sol com armação retangular elegante e hastes flexíveis.</p>
-                        <div class="product-price">R$ 319,90</div>
-                        <a href="#contact" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
+            <!-- Container para produtos dinâmicos -->
+            <div id="products-container" class="products">
+                <!-- Os produtos serão carregados dinamicamente aqui -->
             </div>
         </div>
     </section>
@@ -160,10 +111,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- <div class="about-image">
-                    <img src="/api/placeholder/500/350" alt="Nossa Loja">
-                </div> -->
             </div>
         </div>
     </section>
@@ -198,36 +145,8 @@
                             <i class="far fa-envelope"></i>
                             <span>Email: contato@visaodeatleta.com.br</span>
                         </a>
-                        
-                        <!-- <a href="tel:1130303030" class="contact-link">
-                            <i class="fas fa-phone-alt"></i>
-                            <span>Telefone: (11) 3030-3030</span>
-                        </a> -->
                     </div>
                 </div>
-                
-                <!-- <div class="contact-form">
-                    <h3>Envie uma Mensagem</h3>
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Seu Nome" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Seu Email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <input type="tel" class="form-control" placeholder="Seu Telefone">
-                        </div>
-                        
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Sua Mensagem" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn-submit">Enviar Mensagem</button>
-                    </form>
-                </div> -->
             </div>
         </div>
     </section>
@@ -258,8 +177,6 @@
                     <ul>
                         <li><a href="#featured">Óculos de Sol</a></li>
                         <li><a href="#featured">Óculos de Corrida</a></li>
-                        <!-- <li><a href="#featured">Lentes de Contato</a></li>
-                        <li><a href="#featured">Acessórios</a></li> -->
                     </ul>
                 </div>
                 
